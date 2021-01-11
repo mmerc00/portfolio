@@ -1,8 +1,7 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
-import NavLink from "../NavLink";
 
-const Navbar = () => {
+const Header = () => {
   return (
     <div>
       <Navbar>
@@ -20,4 +19,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;
